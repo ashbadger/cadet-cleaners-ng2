@@ -9,6 +9,7 @@ import { MapComponent } from './map/map.component';
 import { AgmCoreModule } from '@agm/core';
 import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
 import { ContentComponent } from './content/content.component';
+import { Ng2PageScrollModule } from 'ng2-page-scroll';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ContentComponent } from './content/content.component';
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyACBE0zHMOsSJxQZ_IQRF1BWijPYdAHxp4'
     }),
-    AgmSnazzyInfoWindowModule
+    AgmSnazzyInfoWindowModule,
+    Ng2PageScrollModule
   ],
   providers: [],
   bootstrap: [AppComponent]
