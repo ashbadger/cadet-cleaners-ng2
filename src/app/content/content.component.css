@@ -11,7 +11,7 @@
 }
 
 h1 {
-    font-size:50px;
+    font-size:45px;
 }
 
 p {
@@ -20,4 +20,20 @@ p {
 
 ol {
     list-style: none; /* Remove default numbering */
+}
+
+#contact a {
+    font-size: 16px;
+}
+
+.fa-phone {
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+a {
+    display: block;
 }
