@@ -14,8 +14,8 @@ div {
 @media only screen and (max-width: 650px) {
     agm-map {
         display: block;
-        height: 400px;
-        width: 400px;
+        height: 375px;
+        width: 375px;
         margin-left:auto; 
         margin-right:auto;
     }
