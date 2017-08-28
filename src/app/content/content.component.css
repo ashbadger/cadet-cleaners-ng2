@@ -1,7 +1,7 @@
 #content {
     padding-top:50px;
     text-align: center;
-    width: 60%;
+    width: 45%;
 }
 
 .fa-leaf {
@@ -27,6 +27,10 @@ ol {
     text-align: center;
 }
 
+#contact {
+    padding-top: 15px;
+}
+
 .fa-phone {
     font-size: 20px;
 }
@@ -37,4 +41,10 @@ a:hover{
 
 a {
     display: block;
+}
+
+@media only screen and (max-width: 650px) {
+    #content {
+        width: 70%;
+    }
 }
