@@ -8,6 +8,11 @@
     color:	#e04545;
     padding-right: 15px;
 }
+
+#icons i.fa:hover{
+    color: #333;
+}
+
 #icons {
     text-align: center;
 }
@@ -17,4 +22,8 @@ div.col-md-6 {
 
 a {
     color: #1a4ca3;
+}
+
+a:hover{
+    text-decoration: none !important;
 }
