@@ -9,8 +9,8 @@ import { AgmCoreModule } from '@agm/core';
   styleUrls: ['./map.component.css']
 })
 export class MapComponent {
-  map_lat: number = 32.65;
-  map_lng: number = -96.915;
+  map_lat: number = 32.650320;
+  map_lng: number = -96.900635;
 
   lat: number = 32.656276;
   lng: number = -96.890866;
