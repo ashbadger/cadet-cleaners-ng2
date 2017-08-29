@@ -8,7 +8,7 @@ agm-map {
 
 div {
     padding-top: 10px;
-    padding-bottom: 150px;
+    padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 650px) {

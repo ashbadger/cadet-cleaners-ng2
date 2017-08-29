@@ -1,7 +1,18 @@
 #content {
-    padding-top:50px;
     text-align: center;
     width: 45%;
+}
+
+#about {
+    padding-top:30px;
+}
+
+#location {
+    padding-bottom:150px;
+}
+
+#map {
+    width: 100%;
 }
 
 .fa-leaf {
@@ -10,8 +21,9 @@
     font-size: 50px;
 }
 
+
 h1 {
-    font-size:45px;
+    font-size:40px;
 }
 
 p {
@@ -19,7 +31,7 @@ p {
 }
 
 #contact a {
-    font-size: 16px;
+    font-size: 19px;
     text-align: center;
 }
 
@@ -28,6 +40,7 @@ p {
 }
 
 .fa-phone {
+    padding-top: 10px;
     font-size: 20px;
 }
 
@@ -43,4 +56,9 @@ a {
     #content {
         width: 90%;
     }
+}
+
+#hours {
+    font-size: 15px;
+    display: block;
 }
