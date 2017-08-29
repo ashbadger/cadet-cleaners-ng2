@@ -3,6 +3,15 @@
     width: 45%;
 }
 
+img {
+    width: 600px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left:auto; 
+    margin-right:auto;
+    display: block;
+}
+
 #about {
     padding-top:30px;
 }
@@ -18,12 +27,13 @@
 .fa-leaf {
     text-align: center;
     color: green;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 
 h1 {
     font-size:40px;
+    font-family: Roboto;
 }
 
 p {
@@ -53,6 +63,17 @@ a {
 }
 
 @media only screen and (max-width: 650px) {
+    img {
+        width: 90%;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    #content {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
     #content {
         width: 90%;
     }
