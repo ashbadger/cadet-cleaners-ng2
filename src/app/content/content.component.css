@@ -32,7 +32,8 @@ img {
 
 
 h1 {
-    font-size:40px;
+    font-size:35px;
+    color: #264C57;
 }
 
 p {
@@ -59,6 +60,7 @@ a:hover{
 
 a {
     display: block;
+    color: #264C57;
 }
 
 @media only screen and (max-width: 650px) {
