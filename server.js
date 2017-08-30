@@ -1,19 +1,25 @@
-import http from 'http';
-import express from 'express';
-import cors from 'cors';
-import morgan from 'morgan';
-import bodyParser from 'body-parser';
-import initializeDb from './db';
-import middleware from './middleware';
-import api from './api';
-import config from './tsconfig.json';
+const http = require('http');
+const https = require('https');
+const express = require('express');
+const fs = require('fs');
+const morgan = require('morgan');
+const config = require('./tsconfig.json');
+
+var options = {
+    key: fs.readFileSync('./ssl/key.pem'),
+    cert: fs.readFileSync('./ssl/cert.pem')
+};
 
 let app = express();
-app.server = http.createServer(app);
+
+app.server = https.createServer(options, app);
 
 app.use(morgan('dev'));
 
 app.use(express.static(__dirname + '/dist'));
+
+console.log(process.env.PORT)
+console.log(config.port)
 
 app.server.listen(process.env.PORT || config.port, () => {
     console.log(`Started on port ${app.server.address().port}`);
