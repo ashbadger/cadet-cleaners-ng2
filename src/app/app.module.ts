@@ -33,6 +33,6 @@ import { Meta } from '@angular/platform-browser';
 })
 export class AppModule {
   constructor(private metaService: Meta) {
-    this.metaService.addTag({ property: 'description', content: 'Cadet Cleaners is a family owned dry cleaners that has been serving the Dallas and Duncanville areas for over 30 years. We pride ourselves on our attention to detail, as well as giving our customers the best possible customer service.' });
+    this.metaService.addTag({ name: 'description', content: 'Cadet Cleaners is a family owned dry cleaners that has been serving the Dallas and Duncanville areas for over 30 years. We pride ourselves on our attention to detail, as well as giving our customers the best possible customer service.' });
   }
 }
