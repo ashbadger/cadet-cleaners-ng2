@@ -3,6 +3,7 @@ node_js: node
 cache:
   directories:
   - node_modules
+script: npm build
 deploy:
   provider: s3
   access_key_id:
