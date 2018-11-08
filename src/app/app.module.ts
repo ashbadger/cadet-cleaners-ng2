@@ -9,6 +9,7 @@ import { MapComponent } from './map/map.component';
 import { AgmCoreModule } from '@agm/core';
 import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
 import { ContentComponent } from './content/content.component';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { Meta } from '@angular/platform-browser';
 
 @NgModule({
@@ -25,6 +26,7 @@ import { Meta } from '@angular/platform-browser';
       apiKey: 'AIzaSyACBE0zHMOsSJxQZ_IQRF1BWijPYdAHxp4'
     }),
     AgmSnazzyInfoWindowModule,
+    NgxPageScrollModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
