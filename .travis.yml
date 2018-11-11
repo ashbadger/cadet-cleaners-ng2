@@ -6,7 +6,7 @@ install:
 cache:
   directories:
   - node_modules
-script: npm build
+script: npm run build:prod
 deploy:
   provider: s3
   access_key_id: $AWS_ACCESS_KEY_ID
